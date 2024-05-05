@@ -1,0 +1,159 @@
+@media only screen and (max-height: 630px) {
+    .head-title {
+        max-width: 100%;
+        writing-mode: horizontal-tb;
+        text-orientation: inherit;
+        top: 28px;
+        left: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .nav-bar ul {
+
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 80px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .head-title {
+        max-width: 100%;
+        writing-mode: horizontal-tb;
+        text-orientation: inherit;
+        top: 28px;
+        left: 20px;
+        margin-right: 0px;
+    }
+
+    .side-bar {
+        overflow-y: unset;
+        overflow-x: scroll;
+        bottom: 0;
+        left: 0;
+        right: initial;
+        max-width: 100%;
+        white-space: nowrap;
+        height: unset;
+    }
+
+    .side-bar div {
+        margin-top: 10px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .side-bar div img {
+        order: 1;
+    }
+
+    .side-bar div h4 {
+        display: none;
+        margin: 5px;
+    }
+
+    .side-bar:hover {
+        display: none;
+    }
+
+
+    .main-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .head-section {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .header-position,
+    .para-position {
+        margin: 150px 0px 0px 10%;
+    }
+
+    .para-position {
+        width: 70%;
+        margin-right: 0px;
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        margin-top: 60px;
+    }
+
+    .under-line {
+        display: inline;
+        font-size: 45px;
+    }
+
+    .weather {
+        margin-top: 50px;
+        border-radius: 10px;
+        background-image: url(./icons/blueaio.png);
+        background-size: 300px;
+        background-repeat: no-repeat;
+        min-width: 100px;
+        min-height: 50px;
+        background-position: top 0px center;
+        box-shadow: .1px .1px 5px .1px;
+        z-index: -1000;
+        margin-right: 0px;
+        width: 70%;
+    }
+
+    .booker {
+        margin-top: 50px;
+        border-radius: 10px;
+        background-image: url(./icons/booker-logo.png);
+        background-position: top 20px center;
+        background-size: 200px;
+        box-shadow: .1px .1px 5px .1px;
+        background-repeat: no-repeat;
+        min-width: 100px;
+        z-index: -1000;
+        margin-right: 0px;
+        width: 70%;
+    }
+
+    .about-para-position {
+        margin: 10px 0px 10px 10%;
+        margin-right: 0px;
+        margin-top: 10px;
+        max-width: 60%;
+        text-align: justify;
+        border-left: 4px solid;
+        padding-left: 10px;
+    }
+
+    .download {
+        text-decoration: none;
+        background-color: rgb(16, 140, 198);
+        color: inherit;
+        font-family: inherit;
+        border-radius: 30px;
+        margin: 250px 0px 250px 50px;
+        height: 50px;
+        width: 200px;
+    }
+
+}

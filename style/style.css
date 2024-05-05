@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sunflower:wght@300&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sunflower-light {
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.inter-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --font_color: #ffffff;
+  --bg_color: rgb(11, 19, 30);
+  --bg_light_color: rgb(208, 221, 238);
+
+}
+
+body {
+  /* background-image: url(dark-bg.jpg); */
+  background-color: var(--bg_color);
+  /* background-image: linear-gradient(to bottom, #280937, #9B8F27, #1996BD, #280937); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  color: var(--font_color);
+}
+
+.mode {
+  position: fixed;
+  left: 10px;
+  top: 65px;
+  min-width: 20px;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+}
+
+.mode img {
+  width: 20px;
+}
+
+.nav-bar {
+  /* Group 1 */
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  color: #ffffff;
+  /* border-bottom: solid 1px;
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.1); */
+  background-color: rgb(0, 9, 24);
+  backdrop-filter: blur(16px);
+}
+
+
+.nav-bar ul {
+
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 80px;
+  padding: 20px 20px 20px 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar {
+  margin-top: 100px;
+  margin-right: 10px;
+  padding-right: 0px;
+  padding-left: 10px;
+  max-width: 500px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  height: 550px;
+  position: fixed;
+  right: 0;
+}
+
+.side-bar div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.side-bar div:hover {
+  h4 {
+    display: block;
+  }
+
+  img {
+    opacity: 1;
+  }
+}
+
+.side-bar div h4 {
+  display: none;
+  writing-mode: vertical-rl;
+  /* vertical right-to-left */
+  text-orientation: mixed;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+
+.head-section {
+  display: flex;
+
+}
+
+.header-font {
+  /* OMAR ID HMAID */
+  font-size: 30px;
+
+}
+
+.under-line {
+  display: inline;
+  font-size: 45px;
+  position: relative;
+  top: 80px;
+  z-index: -5;
+  /* border-bottom: 2px dashed; */
+}
+
+.header-position {
+  margin: 250px 0px 0px 200px;
+  /* max-width: 350px; */
+}
+
+.head-title {
+  position: fixed;
+  top: 50px;
+  margin: 40px 0px 0px 19px;
+  font-size: 16px;
+  max-width: 10px;
+  writing-mode: vertical-rl;
+  /* vertical right-to-left */
+  text-orientation: upright;
+
+}
+
+.para-position {
+  margin: 300px 0px 0px 150px;
+  max-width: 350px;
+  height: fit-content;
+  border-left: 4px solid;
+  padding-left: 10px;
+}
+
+.giant-icon {
+  width: 50px;
+  opacity: 80%;
+}

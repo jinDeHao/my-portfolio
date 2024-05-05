@@ -1,0 +1,50 @@
+.articles {
+    display: flex;
+    flex-direction: row;
+    margin: 130px 0px 0px 100px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.border {
+    border: solid 1px white;
+}
+
+.weather {
+
+    border-radius: 10px;
+    background-image: url(./icons/blueaio.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    min-height: 200px;
+    background-position: top 0px center;
+    box-shadow: .1px .1px 5px .1px;
+    z-index: -1000;
+}
+
+.booker {
+    border-radius: 10px;
+    background-image: url(./icons/booker-logo.png);
+    background-position: top 20px center;
+    background-size: 200px;
+    box-shadow: .1px .1px 5px .1px;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    z-index: -1000;
+}
+
+
+.articles h3 {
+    padding-top: 200px;
+}
+
+.articles p {
+    max-width: 300px;
+}
+
+.project {
+    padding: 25px;
+    padding-top: 10px;
+    /* display: none; */
+}
