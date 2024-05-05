@@ -31,6 +31,8 @@
         top: 28px;
         left: 20px;
         margin-right: 0px;
+        position: relative;
+        z-index: -5;
     }
 
     .side-bar {
