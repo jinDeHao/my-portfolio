@@ -19,8 +19,8 @@
 
         display: flex;
         list-style: none;
-        justify-content: center;
-        gap: 80px;
+        justify-content: space-around;
+        /* gap: 80px; */
         padding: 20px 20px 20px 20px;
     }
 
