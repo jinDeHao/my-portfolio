@@ -2,7 +2,6 @@
     margin: 100px;
     margin-top: 10px;
     max-width: 600px;
-    /* text-indent: 50px; */
     text-align: justify;
     border-left: 4px solid;
     padding-left: 10px;
@@ -20,18 +19,18 @@
 }
 
 #linkedin {
-    background-image: url(./icons/light-linkedin-logo.svg);
+    background-image: url(../icons/light-linkedin-logo.svg);
     background-repeat: no-repeat;
 }
 
 #github {
-    background-image: url(./icons/light-github-logo.svg);
+    background-image: url(../icons/light-github-logo.svg);
     background-repeat: no-repeat;
 }
 
 #twitter {
     background-position-y: 5px;
-    background-image: url(./icons/light-twitter-logo.svg);
+    background-image: url(../icons/light-twitter-logo.svg);
     background-repeat: no-repeat;
 }
 
@@ -40,7 +39,6 @@
     background-color: rgb(16, 140, 198);
     color: inherit;
     font-family: inherit;
-    /* border: none; */
     border-radius: 30px;
     margin: 300px;
     margin-bottom: 240px;

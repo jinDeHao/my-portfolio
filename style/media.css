@@ -109,7 +109,7 @@
     .weather {
         margin-top: 50px;
         border-radius: 10px;
-        background-image: url(./icons/blueaio.png);
+        background-image: url(../icons/blueaio.png);
         background-size: 300px;
         background-repeat: no-repeat;
         min-width: 100px;
@@ -124,7 +124,7 @@
     .booker {
         margin-top: 50px;
         border-radius: 10px;
-        background-image: url(./icons/booker-logo.png);
+        background-image: url(../icons/booker-logo.png);
         background-position: top 20px center;
         background-size: 200px;
         box-shadow: .1px .1px 5px .1px;

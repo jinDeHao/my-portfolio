@@ -35,9 +35,7 @@ a {
 }
 
 body {
-  /* background-image: url(dark-bg.jpg); */
   background-color: var(--bg_color);
-  /* background-image: linear-gradient(to bottom, #280937, #9B8F27, #1996BD, #280937); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -61,14 +59,11 @@ body {
 }
 
 .nav-bar {
-  /* Group 1 */
   width: 100%;
   position: fixed;
   left: 0px;
   top: 0px;
   color: #ffffff;
-  /* border-bottom: solid 1px;
-    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.1); */
   background-color: rgb(0, 9, 24);
   backdrop-filter: blur(16px);
 }
@@ -121,7 +116,6 @@ main {
 .side-bar div h4 {
   display: none;
   writing-mode: vertical-rl;
-  /* vertical right-to-left */
   text-orientation: mixed;
   margin: 5px;
   padding-left: 10px;
@@ -134,7 +128,6 @@ main {
 }
 
 .header-font {
-  /* OMAR ID HMAID */
   font-size: 30px;
 
 }
@@ -145,12 +138,10 @@ main {
   position: relative;
   top: 80px;
   z-index: -5;
-  /* border-bottom: 2px dashed; */
 }
 
 .header-position {
   margin: 250px 0px 0px 200px;
-  /* max-width: 350px; */
 }
 
 .head-title {
@@ -160,7 +151,6 @@ main {
   font-size: 16px;
   max-width: 10px;
   writing-mode: vertical-rl;
-  /* vertical right-to-left */
   text-orientation: upright;
 
 }
