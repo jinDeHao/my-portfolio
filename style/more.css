@@ -21,17 +21,20 @@
 #linkedin {
     background-image: url(../icons/light-linkedin-logo.svg);
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 #github {
     background-image: url(../icons/light-github-logo.svg);
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 #twitter {
     background-position-y: 5px;
     background-image: url(../icons/light-twitter-logo.svg);
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .download {
@@ -48,6 +51,7 @@
     width: fit-content;
     padding-inline: 15px;
     padding-block: 10px;
+    cursor: pointer;
 }
 
 .shadow-inset-center:hover {
