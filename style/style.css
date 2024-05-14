@@ -168,11 +168,6 @@ main {
   opacity: 80%;
 }
 
-
-/* .O-opacity {
-  opacity: 95%;
-} */
-
 .done-opacity {
   animation: tracking-in-contract 0.5s
 }
